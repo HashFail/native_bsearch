@@ -6,6 +6,7 @@ Gem::Specification.new do |s|
   s.email = "jakec43@gmail.com"
   s.licenses = ['MIT']
   s.description = "A C implementation of the binary search algorithm for Ruby arrays."
+  s.homepage = "https://github.com/HashFail/native_bsearch"
   
   s.files = Dir.glob("ext/**/*.{c,rb}") +
             Dir.glob("lib/**/*.rb")

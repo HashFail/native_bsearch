@@ -14,6 +14,10 @@ more than one element matching the target, the search is not guaranteed to retur
 
 # Installation
 
+To install the gem, simply run `gem install native_bsearch`. 
+
+For use with bundler: `gem native_bsearch`. 
+
 If you want to download and compile the code, you will need the [rake compiler gem](https://github.com/luislavena/rake-compiler). Then, all you 
 need to do is run `rake compile` in the project directory and include the file created in the lib folder. 
 
