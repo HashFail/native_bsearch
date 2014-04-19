@@ -27,7 +27,7 @@ static VALUE rb_array_binary_index(int argc, VALUE* argv, VALUE self) {
 
     if(comp == 0) {
       return LONG2NUM(i);
-    } else if(comp == 1) {
+    } else if(comp > 0) {
       lower = i + 1;
     } else {
       upper = i - 1;
@@ -54,7 +54,7 @@ static VALUE rb_array_binary_search(int argc, VALUE* argv, VALUE self) {
 
     if(comp == 0) {
       return rb_ary_entry(self, i);
-    } else if(comp == 1) {
+    } else if(comp > 0) {
       lower = i + 1;
     } else {
       upper = i - 1;
@@ -62,7 +62,6 @@ static VALUE rb_array_binary_search(int argc, VALUE* argv, VALUE self) {
   }
   return Qnil;
 }
-
 
 void Init_native_bsearch() {
   id_cmp = rb_intern("<=>");

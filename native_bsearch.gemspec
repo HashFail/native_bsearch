@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name    = "native_bsearch"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
   s.summary = "Native (C) binary search extension for arrays in Ruby"
   s.author  = "Jake Christensen"
   s.email = "jakec43@gmail.com"
