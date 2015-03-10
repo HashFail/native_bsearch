@@ -20,11 +20,12 @@ To install the gem, simply run `gem install native_bsearch`.
 For use with bundler: `gem native_bsearch`. 
 
 If you want to download and compile the code, you will need the [rake compiler gem](https://github.com/luislavena/rake-compiler). Then, all you 
-need to do is run `rake compile` in the project directory and include the file created in the lib folder. 
+need to do is run `rake compile` in the project directory. After that, `include` the file created in the lib folder, or run `rake native gem` and 
+`gem install pkg/native_bsearch-(version)-(platform).gem` to compile and install the gem. 
 
 # Versions
 
-There are currently two versions of the gem available: 0.0.2 and 0.0.5. The only difference is that 0.0.2 does not support the lower and upper bound parameters. 
+There are currently two versions of the gem available: 0.0.2 and 0.0.5. [Versions 0.0.1, 0.0.3, and 0.0.4 have been yanked](http://www.jakechristensen.net/posts/on-testing-your-code). The only difference is that 0.0.2 does not support the lower and upper bound parameters. 
 
 # Licence
 
