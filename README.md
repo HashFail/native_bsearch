@@ -7,7 +7,8 @@ A C implementation of the binary search algorithm for Ruby arrays.
 
 The extension adds two methods to ruby arrays: native\_bsearch and native\_bindex. Both take either an object, 
 which will be compared to the elements of the array using the <=> operator, or a block as a parameter. native\_bsearch
-returns the element matching the parameter and native\_bindex returns it's index. 
+returns the element matching the parameter and native\_bindex returns it's index. Optionally, either method can take 
+two additional number parameters representing the lower and upper bounds of the search. 
 
 Note: the array must be sorted according to the output of either the <=> operator or the block (duh), and if there is 
 more than one element matching the target, the search is not guaranteed to return the first element. 
