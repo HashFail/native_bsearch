@@ -24,7 +24,7 @@ need to do is run `rake compile` in the project directory and include the file c
 
 # Versions
 
-There are currently two versions of the gem available: 0.0.2 and 0.0.4. The only difference is that 0.0.2 does not support the lower and upper bound parameters. 
+There are currently two versions of the gem available: 0.0.2 and 0.0.5. The only difference is that 0.0.2 does not support the lower and upper bound parameters. 
 
 # Licence
 
