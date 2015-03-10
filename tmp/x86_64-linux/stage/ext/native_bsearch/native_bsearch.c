@@ -59,7 +59,7 @@ static VALUE rb_array_binary_search(int argc, VALUE* argv, VALUE self) {
 
   while(lower <= upper) {
     i = lower + (upper - lower) / 2;
-    if(argc == 1)
+    if(argc == 1 || argc == 3)
     {
       comp = NUM2INT(rb_funcall(argv[0], id_cmp, 1, rb_ary_entry(self, i)));
     }
